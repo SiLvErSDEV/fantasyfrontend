@@ -28,6 +28,7 @@ function App() {
             border: 'none'
           }}
           scrolling="no"
+          title="Clasificación de la Liga 1 2025 Apertura"
         ></iframe>
           <img
             src="/images/nextSchedule.png"

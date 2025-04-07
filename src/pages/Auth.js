@@ -59,9 +59,6 @@ const Auth = () => {
             Iniciar Sesión
           </button>
         </form>
-        <p style={{ textAlign: 'center', marginTop: '20px' }}>
-          ¿No tienes cuenta? <a href="#" style={{ color: '#FF69B4', textDecoration: 'underline' }}>Regístrate</a>
-        </p>
       </div>
     </div>
   );
