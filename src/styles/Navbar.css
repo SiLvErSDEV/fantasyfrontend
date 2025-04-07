@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #FF69B4; /* Fondo rosa */
+  color: #000000; /* Texto negro */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Fijo en la parte superior */
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.navbar-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.navbar-link:hover {
+  color: #ffffff; /* Cambia a blanco al pasar el cursor */
+  background-color: #000000; /* Fondo negro en hover */
+  border-radius: 5px; /* Bordes redondeados */
+}
