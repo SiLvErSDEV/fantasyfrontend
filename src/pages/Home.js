@@ -73,11 +73,6 @@ const Home = () => {
             <li>Entradas exitosas: +1 punto</li>
             <li>Duelos aéreos ganados: +0.5 puntos</li>
           </ul>
-          <li><strong>Acciones ofensivas:</strong></li>
-          <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
-            <li>Pases clave (key passes): +1 punto</li>
-            <li>Dribblings exitosos: +0.5 puntos</li>
-          </ul>
           <li><strong>Infracciones:</strong></li>
           <ul style={{ listStyleType: 'circle', marginLeft: '20px' }}>
             <li>Tarjeta amarilla: -1 punto</li>
